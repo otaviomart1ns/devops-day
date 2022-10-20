@@ -1,2 +1,2 @@
 release: python manage.py migrate --noinput
-web: gunicorn devopsday.wsgi --log-file -
+web: gunicorn devops-day.wsgi --log-file -
